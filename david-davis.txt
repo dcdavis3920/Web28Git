@@ -31,31 +31,70 @@
     Class can be used on any html element.
 
     12. How many times can I use the same class on a page?
-    You can use a class as many times as you like. 
+    You can use a class as many times as you like.
+
     13. How do I get my link to open in a new tab?
-    14. What is the alt attribute used for? 
+    Use the src attribute to connect to a link that goes to a different page.
+
+    14. What is the alt attribute used for?
+    Its use for accessibility reasons when its used screen readers are able to know that its a image and the description of that image.
+
     15. How do I reference an id?
+    You place the hash tag before the id.
+
     16. What is the difference between a section and a div
+    Sections indicate items are grouped together and divs in just a container.
     17. What is CSS used for? 
+    CSS is used to style a page.
+
     18. How to we select an element? Example - every h2 on the page
-    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    To select all the h2's on a page type h2 then use a curly bracket.
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one.
+    A class is used mostly for styling element it groups several elements together with the same class, and id's are mostly used for navagation on the page. 
     20. How do we select classes in CSS?
+    To select a class in css you would use a period then the class name followed by curly bracket.
+
     21. How do we select a p element with a single class of “human””?
+    You would use .human the a curly bracket.
+
     22. What is a parent child selector? When would this be useful? 
+    Parent child selector is when you nest the child element in the parent. This is useful to add specicifity when styling.
+
     23. How do you select all links within a div with the class of sidebar?
+    You would call div a then curly brackets.
+
     24. What is a pseudo selector?
+    pseudo selectors react to their state that they are in. 
+    
     25. What do we use the change the spacing between lines?
-    26. What do we use to change the spacing between letters?
-    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
-    28. How do I add a 1px border around my div that is dotted and black?
+    select the element then put curly brackets then type line-space: desired space then ; close curly bracket'
+
+    26. What do we use to change the spacing between letters? 
+    select element then curly bracket letter-spacing: selected
+    
+    28. How do I add a 1px border around my div that is dotted and black? select div curly bracket than type border: 1px dotted black; then close curly bracket.
+
     29. How do I select everything on the page? 
+    Use the wildcard selector *.
+
     30. How do I write a comment in CSS?
+    /* */
+
     31. How do I find out what file I am in, when I am using the command line? 
+    git status
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    git rm -r folder-name and because the deletion is permanent.
+
     34. Why should I use version control? 
-    35. How often should I commit to github?
+    It records changes made to a file.
+
+    35. How often should I commit to github? 
+    Every 20-30 minutes.
     36. What is the command we would use to push our repo up to github? 
+    git push
     37. Walk me through Lambda's git flow. 
 
 Stretch Questions
